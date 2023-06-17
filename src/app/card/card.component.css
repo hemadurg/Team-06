@@ -1,0 +1,30 @@
+section .row .col .card .card-title {
+    text-align: center;
+}
+section .row .col .card .card-title h1{
+    color: #060404;
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+section .row .col .card .card-title .card-body p{
+    font-size: 0.9rem; 
+}
+section .row .col .card .card-title .card-body button{
+    background-color: rgb(96, 60, 6);
+    border: none;
+    border-radius: 3px;
+    color: rgb(232, 229, 236);
+    font-weight: 600;
+    padding: 2px 4px;
+    transition: 0.5;
+
+}
+section .row .col .card .card-title .card-body button:hover{
+    background-color: rgb(164, 89, 9);
+}
+section .row .col .card{
+    transition: transform 420ms ;
+}
+section .row .col .card:hover{
+    transform: scale(1.09);
+}
