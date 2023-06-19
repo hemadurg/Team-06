@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .btn {
   padding: .45rem 1.5rem .35rem;
 }
@@ -13,3 +14,16 @@
   background: linear-gradient(to right, rgb(157, 32, 72), rgb(201, 142, 40))
 }
 
+=======
+.con{
+    padding-left: 1%cd ;
+}
+nav a{
+    color:brown;
+    font-family:bold;
+}
+nav a ul{
+    color:brown;
+
+}
+>>>>>>> 74ff6a4834a157bbbb091f346f8b3b2ffb95c99d
