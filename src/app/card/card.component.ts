@@ -73,6 +73,52 @@ export class CardComponent {
       button: 'Viewdetails' 
     }
   ]
+  doctors = [
+    {
+      src: '../assets/Imeges/d1.jpeg',
+      alt: 'item1',
+      title: 'Dr. Prasad Nallana',
+      desc: '*Radiologist  *Interventional Radiologist   MBBS | DNB - Radio Diagnosis  20 years of experience',
+      button: 'Equire now'
+    },
+    {
+      src: '../assets/Imeges/d3.jpeg',
+      alt: 'item2',
+      title: 'Dr. Jaideep Trivedi',
+      desc: '*Cardiothoracic And Vascular Surgeon   MBBS | MS - General Surgery | MCh - Cardio Thoracic and Vascular Surgery',
+      button: 'Equire now'
+    },
+    {
+      src: '../assets/Imeges/d2.jpeg',
+      alt: 'item2',
+      title: 'Dr. Satya kumari',
+      desc: '16 years of experience  *Cardiologist   MBBS | MD - General Medicine | DM - Cardiology',
+      button: 'Equire now'
+    }
+  ]
+  guides = [
+    {
+      src: '../assets/Imeges/g1.jpeg',
+      alt: 'item1',
+      title: 'Mis. Madhumadi',
+      desc: 'I am a very good English speaker. I was very passionate about travelling and guiding. I have many best concepts to travel with thrills you and have very good information about places and good time fun time. ',
+      button: 'Book Guide'
+    },
+    {
+      src: '../assets/Imeges/g3.jpeg',
+      alt: 'item2',
+      title: 'Mr. Surya Kumar',
+      desc: 'I Love Travelling!I am from Andhrapradesh!Economy is my first concern. I can assist tourists/travellers in getting good food, accomdation and travel things in good price.I am a very good English speaker.',
+      button: 'Book Guide'
+    },
+    {
+      src: '../assets/Imeges/g2.jpeg',
+      alt: 'item2',
+      title: 'Mis. Sunethri',
+      desc: 'I am born & brought up in Visakhapatnam, well versed with best. Beaches, Parks, Hill Stations, Meusems etc. I am confident with my communication skills.I am able to deal with all people nicely. ',
+      button: 'Book Guide'
+    }
+  ]
   Onclick() {
     this.routes.navigateByUrl('')
   }

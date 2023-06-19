@@ -52,3 +52,7 @@ section .row .col .card{
 section .row .col .card:hover{
     transform: scale(1.09);
 }
+h3{
+    text-align: center;
+    color: rgb(216, 108, 50);
+}
