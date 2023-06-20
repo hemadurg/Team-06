@@ -1,25 +1,27 @@
 section{
-    background: url(../../assets/Imeges/back2.jpg);
+    background: url(../../assets/Imeges/r1.jpeg);
     background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
 }
 section .title h1 {
+    padding-top: 3%;
     text-align: center;
-    color: aliceblue;
+    color: rgb(188, 17, 80);
     font-weight: 400;
 }
 
 section .title h4 {
-    text-align: center;
-    color: rgb(250, 249, 248);
+    padding-left: 20%;
+    text-align: left;
+    padding-top: 3%;
+    color: rgba(31, 4, 79, 0.265);
     font-weight: 400;
 }
 
 section .sub p {
-    padding-left: 30px;
-    color: azure;
-}
+    color: rgb(8, 8, 8);
+} 
 
 section .sub {
     display: flex;
@@ -30,20 +32,17 @@ section .title .sub .center{
 }
 section .sub table tr td p{
   text-align: justify; 
-  padding-left: 25%;
+  padding-left: 3%;
+  padding-top: 5%;
 }
 section .sub table tr td iframe{
     padding-left: 10%;
     padding-bottom: 10%;
+    padding-top: 5%;
 }
-section .desc p{
-    padding-left: 10%;
-    padding-right: 10%;
+section .title .desc p{
+    padding-left: 20%;
+    padding-right: 20%;
     text-align: justify;
-    color: rgb(254, 251, 248);
-}
-section img{
-    padding-left: 35%;
-    height: 80%;
-    width: 70%;
+    color: rgb(9, 7, 6);
 }

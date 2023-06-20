@@ -1,8 +1,9 @@
 section{
-    background: url(../../assets/Imeges/back2.jpg);
+    background: url(../../assets/Imeges/back3.jpg);
     background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-attachment: fixed; */
 }
 section .title h1 {
     text-align: center;
@@ -24,13 +25,16 @@ section .sub p {
 section .sub {
     display: flex;
 }
-section .title .sub .center{
+section .sub .center{
     margin-left: auto;
     margin-right: auto;
+    
 }
 section .sub table tr td p{
-  text-align: justify; 
-  padding-left: 25%;
+  text-align: left;
+  font-weight: 600%;
+  color: rgb(251, 245, 238);
+  padding-left: 10%;
 }
 section .sub table tr td iframe{
     padding-left: 10%;
@@ -42,6 +46,7 @@ section .desc p{
     text-align: justify;
     color: rgb(254, 251, 248);
 }
+
 section img{
     padding-left: 35%;
     height: 80%;
